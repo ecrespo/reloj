@@ -1,0 +1,115 @@
+
+/*var playa1 = new place(1,"1","Playa", "Cornella", 41.35882, 2.07366, 233.33, "www.google.es");
+var playa2 = new place(1,"1","Playa", "Siches",  91.362, 2.578, 233.33, "www.google.es");
+var playa3 = new place(1,"1","Playa", "Siches", 41.362, 2.458, 233.33, "www.google.es");
+var mirador1 = new place(2,"2","Mirador", "Siches", 21.362, 2.24, 233.33, "www.google.es");
+var mirador2 = new place(2,"2","Mirador", "Cornella", 41.362, 2.244, 233.33, "www.google.es");
+var mirador3 = new place(2,"2","Mirador", "Tibidabo", 41.362, 2.24, 233.33, "www.google.es");
+var mirador4 = new place(2,"2","Mirador", "castedefels", 41.362, 2.626, 233.33, "www.google.es");
+var fiesta1 = new place(2,"3","Fiesta", "Siches",   51.362, 2.345, 233.33, "www.google.es");
+var fiesta2 = new place(2,"3","Fiesta", "Cornella",  41.362, 2.534, 233.33, "www.google.es");
+var fiesta3 = new place(2,"3","Fiesta", "Tibidabo", 71.362, 2.32, 233.33, "www.google.es");
+var fiesta4 = new place(2,"3","Fiesta", "castedefels", 41.362, 2.23, 233.33, "www.google.es");*/
+
+// Se rellena array con ejemplos para poder probar 
+//function place(identificador,	tipoNumero,	tipoString,	informacion, latitud, logitud, distancia, direccionURL)
+
+var playa1 = new place(1,"1","Playa", "Playa del garraf de aguas tranquilas", 41.35882, 2.07366, "www.inspain.org/es/playas/garraf.asp");
+
+/*var playa1 = new place(1,"1","Playa", "Playa del garraf de aguas tranquilas", 41.26443105348392, 1.9855368999999428, "www.inspain.org/es/playas/garraf.asp");*/
+
+var playa2 = new place(1,"1","Playa", "Playa llarga de arena dorada y aguas tranquilas", 41.0652750381215, 1.1514807000000928, 99999.99, "www.inspain.org/es/playas/platjallargaplayalarga1.asp");
+
+var playa3 = new place(1,"1","Playa", "Playa de Castelldefels muy bien equipada con mucho ambiente juvenil", 41.2632468886261, 1.9690029000000777, 99999.99, "www.platjadecastelldefels.org/es/");
+
+
+var playa4 = new place(1,"1","Playa", "Cala ginesta de arena dorada aguas tranquilas y condiciones de baño", 41.23582481509233, 1.820228471533265, 99999.99, "www.inspain.org/es/playas/calaginesta.asp");
+
+
+var catedral1 = new place(2,"2","Catedral", "Catedral gotica de barcelona con tres puertas y una torre con tres niveles en la que se halla una magnífica cúpula piramidal", 41.38420593077432, 2.176316905294793, 99999.99, "www.inspain.org/es/sitios/catedralgoticadebarcelona.asp");
+
+
+var catedral2 = new place(2,"2","Catedral", "Catedral de la ribera conocida como iglesia de Santa María del Mar estilo gótico por armonía en sus proporciones y serenidad que ofrece el conjunto", 39.07086496297946, -3.6132776206237582, 99999.99, "www.inspain.org/es/sitios/iglesiadesantamariadelmarbarcelona.asp");
+
+
+var catedral3 = new place(2,"2","Catedral", "Catedral Sagrada Familia estilo modernista de una genialidad y originalidad impresionante e innovadora", 41.40357071400212, 2.1744721999999683, 99999.99, "www.inspain.org/es/sitios/sagradafamilia.asp");
+
+
+var catedral4 = new place(2,"2","Catedral", "Monasterio pedralbes estilo gótico fundado para albergar a las monjas de clausura de la orden de las Clarisas", 41.395633313998204, 2.1121762999999874, 99999.99, "www.bcn.cat/monestirpedralbes/es/");
+
+
+var parque1 = new place(3,"3","Parque", "Parque natural de montserrat espacio de interés natural protegido con el objetivo de compatibilizar valores naturales culturales e históricos con la vida diaria de sus habitantes", 41.60051986872986, 1.8113001000000395, 99999.99, "www20.gencat.cat/portal/site/patronatmontserrat/menuitem.afe6d8409d01257ce8940efcb0c0e1a0/?vgnextoid=fd68b63897c8c110VgnVCM1000000b0c1e0aRCRD&vgnextchannel=fd68b63897c8c110VgnVCM1000000b0c1e0aRCRD");
+
+
+var parque2 = new place(3,"3","Parque", "Parque natural del Montseny reserva de la biosfera de paisajes mediterráneos y centroeuropeos", 41.77385627131714, 2.4080501000000822, 99999.99, "parcs.diba.cat/web/montseny arcs.diba.cat/web/montseny");
+
+
+var parque3 = new place(3,"3","Parque", "Parque natural de Aiguamolls de l'Empordà la forman un conjunto de estanques cerrados y prados inundables", 42.28133474543222, 3.1016722097656224, 99999.99, "www.empordaturisme.com/es/Associats/Parques_Naturales-188/PARC_NATURAL_DELS_AIGUAMOLLS_DE_LEMPORDA-30.htm");
+
+
+var parque4 = new place(3,"3","Parque", "Parque natural de Aigüestortes y Estany de Sant Maurici único parque nacional de Cataluña paisaje de alta montaña con relieve y riqueza de fauna y vegetación", 42.5821051721906, 1.002940800000033, 99999.99, "www.magrama.gob.es/es/red-parques-nacionales/nuestros-parques/aiguestortes/");
+
+
+var sitios = new Array(playa1, playa2, playa3, playa4, catedral1, catedral2, catedral3, catedral4, parque1, parque2, parque3, parque4 );
+
+var sitiosCercanos = new Array();
+
+
+
+//Se define los atributos que tien un sitio.
+ function place(identificador,	tipoNumero,	tipoString,	informacion, latitud, logitud, distancia, direccionURL){
+        //Atributos de la clase
+	this.id=identificador;
+	this.tipe=tipoNumero;
+	this.tipePoint=tipoString;
+	this.pointInformation=informacion;
+	this.latitude=latitud;
+	this.logitude=logitud;
+	this.distance=distancia;
+	this.pointURL=direccionURL;
+}
+
+
+//Se calcula la distancia entre dos puntos.
+function Dist(lat1, lon1, lat2, lon2)
+  {
+  rad = function(x) {return x*Math.PI/180;}
+
+  var R     = 6378.137;                          //Radio de la tierra en km
+  var dLat  = rad( lat2 - lat1 );
+  var dLong = rad( lon2 - lon1 );
+
+  var a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLong/2) * Math.sin(dLong/2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  var d = R * c;
+
+  return d.toFixed(3);                      //Retorna tres decimales
+}
+
+//Para ordenar el array
+function sortfunction(a, b){
+return (a - b) //causes an array to be sorted numerically and ascending
+}
+
+
+//Se calcula la distancia entre dospuntos y si es menor de 500 metros lo introduce en un array de puntos cercanos.
+function calcularDistancias(lat, lng){
+
+  var dLat = lat;  // guarda coords en lat y lng
+  var dLong = lng;
+
+  //sitiosCercanos.splice();
+  sitiosCercanos.length = 0;
+
+  for (i=0; i<sitios.length; i++){
+
+    sitios[i].distance = Dist(dLat, dLong , sitios[i].latitude, sitios[i].logitude);
+
+    if (+sitios[i].distance < 0.500) {
+
+      sitiosCercanos.push(sitios[i]);
+    }    
+  }
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Reloj</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/headers.css">
+  <link rel="stylesheet" href="css/buttons.css">
+
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/touch.js"></script>
+	<script type="text/javascript" src="js/reloj.js"></script>
+	<style type="text/css">
+	#tex {
+  padding-top: 0.1em;
+  background-color: #FFF;
+}
+.mitad {
+	background-color: #db4e36;
+	color: #db4e36;
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.3em;
+}
+
+	</style>
+</head>
+<body role="aplication">
+	<section role="region">
+		<header>
+			<button><span class="icon icon-menu">menu</span></button>
+			<menu type="toolbar">
+				<button><span class="icon icon-edit">edit</span></button>
+			</menu>
+			<h1>Reloj</h1>
+		</header>
+	</section>
+	<div class="mitad">
+	<div id="tex">texto</div>
+	</div>
+	<canvas id="myCanvas" width="140" height="140"></canvas>
+
+</body>	
+</html>
+
